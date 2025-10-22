@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    background: black;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: aqua;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#uploadMessage {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
